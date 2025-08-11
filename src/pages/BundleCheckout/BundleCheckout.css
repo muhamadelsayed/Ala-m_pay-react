@@ -1,0 +1,12 @@
+/* اترك هذا الملف فارغًا أو أضف أي تنسيقات تريدها لاحقًا */
+.payment-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 1200px) {
+    .payment-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+}
